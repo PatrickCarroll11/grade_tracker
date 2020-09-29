@@ -1,0 +1,47 @@
+#myTable, th, td{
+border: 1px solid black;
+border-collapse: collapse;
+font-family: arial, sans-serif;
+}
+
+#TableA, #TableA-, #TableBplus, #TableB, #TableB-, #TableCplus, #TableC-, #TableC, #TableDplus, #TableD, #TableD-, #TableF {
+border: 1px solid black;
+border-collapse: collapse;
+display: none;
+}
+.result{
+    text-align: center;
+    font-family: arial, sans-serif;
+    font-weight: bold;
+}
+.headings {
+    background-color: gray;
+    font-family: arial, sans-serif;
+}
+.centerAlign{
+    
+    text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.changeable{
+    background-color:yellow;
+    text-align: center;
+    
+}
+.failing{
+    background-color: red;
+    color: white;
+
+}
+.changeable:empty{
+	background-color: yellow;
+}
+
+.passing{
+    background-color: white;
+    color: black;
+}
